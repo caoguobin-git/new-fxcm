@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e68a950e-45ad-4831-9813-4f56377b9e2c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectId" id="1UuYQ6BYH2V1XN118t7iqDdy1fh" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="D:/Android/sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/duochuang" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\new-fxcm\src\test" />
+      <recent name="E:\new-fxcm" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install:install-file -Dfile=d:\fxcore2.jar -DgroupId=com.fxcore2 -DartifactId=fxcore2 -Dversion=2.0.0 -Dpackaging=Jar" />
+      <command value="mvn install:install-file -Dfile=d:\pricehistorymgr.jar -DgroupId=com.pricehistorymgr -DartifactId=pricehistorymgr -Dversion=2.0.0 -Dpackaging=Jar" />
+      <command value="mvn install:install-file -Dfile=d:\quotesmgr2.jar -DgroupId=com.quotesmgr2 -DartifactId=quotesmgr2 -Dversion=2.0.0 -Dpackaging=Jar" />
+      <command value="mvn install:install-file -Dfile=d:\quotesmgr2.jar -DgroupId=com.fxcore2 -DartifactId=quotesmgr2 -Dversion=2.0.0 -Dpackaging=Jar" />
+      <command value="mvn install:install-file -Dfile=d:\pricehistorymgr.jar -DgroupId=com.fxcore2 -DartifactId=pricehistorymgr -Dversion=2.0.0 -Dpackaging=Jar" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.NewFxcmApplication (1)">
+    <configuration name="DateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.duochuang.test.DateTest" />
+      <module name="new-fxcm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.duochuang.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.duochuang.test.LoginTest" />
+      <module name="new-fxcm" />
+      <option name="VM_PARAMETERS" value="-Djava.library.path=.;./java" />
+      <option name="WORKING_DIRECTORY" value="D:/Program Files/Candleworks/ForexConnectAPIx64/bin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.duochuang.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewFxcmApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="new-fxcm" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.duochuang.NewFxcmApplication" />
+      <option name="VM_PARAMETERS" value="-Djava.library.path=.;./java" />
+      <option name="WORKING_DIRECTORY" value="file://D:/Program Files/Candleworks/ForexConnectAPIx64/bin" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewFxcmApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="new-fxcm" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.duochuang.newfxcm.NewFxcmApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.LoginTest" />
+      <item itemvalue="Application.DateTest" />
+      <item itemvalue="Spring Boot.NewFxcmApplication" />
+      <item itemvalue="Spring Boot.NewFxcmApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LoginTest" />
+        <item itemvalue="Application.DateTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e68a950e-45ad-4831-9813-4f56377b9e2c" name="Default Changelist" comment="" />
+      <created>1576207927107</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576207927107</updated>
+      <workItem from="1576207931449" duration="15634000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="364" y="348" width="1174" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576216592480">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="364" y="348" width="1174" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1576216592480" />
+    <state x="702" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576213255803">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="702" y="327" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1576213255803" />
+    <state x="765" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1576208062973">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="765" y="234" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1576208062973" />
+    <state x="740" y="265" key="FileChooserDialogImpl" timestamp="1576226703405">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="265" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1576226703405" />
+    <state width="1877" height="356" key="GridCell.Tab.0.bottom" timestamp="1576226615482">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="356" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576226615482" />
+    <state width="1877" height="356" key="GridCell.Tab.0.center" timestamp="1576226615481">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="356" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576226615481" />
+    <state width="1877" height="356" key="GridCell.Tab.0.left" timestamp="1576226615481">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="356" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576226615481" />
+    <state width="1877" height="356" key="GridCell.Tab.0.right" timestamp="1576226615481">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="356" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576226615481" />
+    <state width="1877" height="356" key="GridCell.Tab.1.bottom" timestamp="1576226615482">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="356" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576226615482" />
+    <state width="1877" height="356" key="GridCell.Tab.1.center" timestamp="1576226615482">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="356" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576226615482" />
+    <state width="1877" height="356" key="GridCell.Tab.1.left" timestamp="1576226615482">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="356" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576226615482" />
+    <state width="1877" height="356" key="GridCell.Tab.1.right" timestamp="1576226615482">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="356" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576226615482" />
+    <state x="490" y="179" key="Maven.ArtifactSearchDialog" timestamp="1576208977043">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="490" y="179" key="Maven.ArtifactSearchDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1576208977043" />
+    <state x="461" y="166" key="SettingsEditor" timestamp="1576208876654">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="166" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1576208876654" />
+    <state x="759" y="302" key="chooseDestDirectoryDialog" timestamp="1576207999700">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="759" y="302" key="chooseDestDirectoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1576207999700" />
+    <state x="616" y="243" width="672" height="677" key="run.anything.popup" timestamp="1576212407945">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="616" y="243" width="672" height="677" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1576212407945" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1576216404186">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1576216404186" />
+  </component>
+</project>
