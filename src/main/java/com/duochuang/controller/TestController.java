@@ -7,21 +7,17 @@
 
 package com.duochuang.controller;
 
+import com.candleworks.pricehistorymgr.IPriceHistoryCommunicator;
+import com.candleworks.pricehistorymgr.PriceHistoryCommunicatorFactory;
 import com.duochuang.listener.OffersListener;
 import com.duochuang.listener.SessionStatusListener;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fxcore2.*;
-import org.jsoup.Connection;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
-import java.net.URL;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
-import java.util.Map;
 import java.util.TimeZone;
 
 @Controller
@@ -38,6 +34,9 @@ public class TestController {
 		// Create a session, subscribe to session listener, login, get accounts, logout
 		try {
 			mSession = O2GTransport.createSession();
+
+//			IPriceHistoryCommunicator communicator = PriceHistoryCommunicatorFactory.createCommunicator();
+
 			statusListener = new SessionStatusListener(mSession, "dbNameoginTest", "mPin");
 			mSession.subscribeSessionStatus(statusListener);
 			mSession.useTableManager(O2GTableManagerMode.YES,null);
