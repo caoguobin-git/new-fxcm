@@ -10,6 +10,7 @@ package com.duochuang.test;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.TimeZone;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class DateTest {
 	public static void main(String[] args) {
@@ -19,6 +20,7 @@ public class DateTest {
 		calendar.set(Calendar.MONTH, calendar.get(Calendar.MONTH)-1);
 		System.out.println(calendar.get(Calendar.MONTH));
 		System.out.println(calendar.getTime().toString());
+		ConcurrentHashMap<String,String> map=new ConcurrentHashMap<>(12);
 
 	}
 }
