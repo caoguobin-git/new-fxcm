@@ -10,7 +10,9 @@ package com.duochuang.controller;
 import com.candleworks.pricehistorymgr.IPriceHistoryCommunicator;
 import com.candleworks.pricehistorymgr.PriceHistoryCommunicatorFactory;
 import com.duochuang.listener.OffersListener;
+import com.duochuang.listener.OpensListener;
 import com.duochuang.listener.SessionStatusListener;
+import com.duochuang.test.LoginTest;
 import com.fxcore2.*;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -25,6 +27,12 @@ import java.util.TimeZone;
 public class TestController {
 	private O2GSession mSession = null;
 	private SessionStatusListener statusListener;
+
+	@GetMapping(value = "/login")
+	public void login(){
+		LoginTest loginTest=new LoginTest();
+		loginTest.run();
+	}
 
 
 	@ResponseBody
@@ -103,6 +111,12 @@ public class TestController {
 ////		System.out.println(document);
 
 		return reportURL;
+	}
+
+	@GetMapping(value = "/open")
+	@ResponseBody
+	public Object getOpen(){
+		return OpensListener.opens;
 	}
 
 	@DeleteMapping("/user")

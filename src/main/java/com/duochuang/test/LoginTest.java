@@ -8,6 +8,7 @@
 package com.duochuang.test;
 
 import com.duochuang.listener.OffersListener;
+import com.duochuang.listener.OpensListener;
 import com.duochuang.listener.SessionStatusListener;
 import com.fxcore2.*;
 
@@ -17,7 +18,7 @@ import java.util.GregorianCalendar;
 import java.util.TimeZone;
 
 public class LoginTest {
-	public static void main(String[] args) {
+	public void run() {
 
 		String mInstrument = "";
 		O2GSession mSession = null;
@@ -28,7 +29,7 @@ public class LoginTest {
 			SessionStatusListener statusListener = new SessionStatusListener(mSession, "dbNameoginTest", "mPin");
 			mSession.subscribeSessionStatus(statusListener);
 			mSession.useTableManager(O2GTableManagerMode.YES,null);
-			mSession.login("701116547", "890128", "http://www.fxcorporate.com/Hosts.jsp", "Demo");
+			mSession.login("701172924", "7723", "http://www.fxcorporate.com/Hosts.jsp", "Demo");
 			while (!statusListener.isConnected() && !statusListener.hasError()) {
 				Thread.sleep(50);
 			}
@@ -39,20 +40,25 @@ public class LoginTest {
 					Thread.sleep(50);
 				}
 
-				O2GOffersTable offers = null;
-				OffersListener listener = null;
+				O2GOffersTable offersTable = null;
+				O2GTradesTable opensTable = null;
+				OffersListener offersListener = null;
+				OpensListener opensListener = null;
 				if (manager.getStatus() == O2GTableManagerStatus.TABLES_LOADED) {
-					offers = (O2GOffersTable)manager.getTable(O2GTableType.OFFERS);
-					listener = new OffersListener();
-					listener.SetInstrumentFilter("XAU/USD");
-					offers.subscribeUpdate(O2GTableUpdateType.UPDATE, listener);
+					offersTable = (O2GOffersTable)manager.getTable(O2GTableType.OFFERS);
+					opensTable= (O2GTradesTable) manager.getTable(O2GTableType.TRADES);
+					offersListener = new OffersListener();
+					opensListener=new OpensListener();
+					offersListener.SetInstrumentFilter("XAU/USD");
+					offersTable.subscribeUpdate(O2GTableUpdateType.UPDATE, offersListener);
+					opensTable.subscribeUpdate(O2GTableUpdateType.UPDATE, opensListener);
 				}
 
 				System.out.println("Press enter to stop!");
 				System.in.read();
 
-				if (offers != null) {
-					offers.unsubscribeUpdate(O2GTableUpdateType.UPDATE, listener);
+				if (offersTable != null) {
+					offersTable.unsubscribeUpdate(O2GTableUpdateType.UPDATE, offersListener);
 				}
 
 				Calendar start=GregorianCalendar.getInstance(TimeZone.getTimeZone("GMT+8:00"));

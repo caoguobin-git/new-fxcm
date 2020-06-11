@@ -32,14 +32,8 @@ public class OffersListener implements IO2GTableListener {
 	public void onChanged(String string, O2GRow o2grow) {
 		O2GOfferTableRow row = (O2GOfferTableRow)o2grow;
 		symbols.add(row.getInstrument());
-//		System.out.println(row.getTradingStatus());
-//		System.out.print(symbols.size()+" ");
-//		System.out.println(symbols);
 		if (mInstrument == null || mInstrument.isEmpty() || row.getInstrument().equals(mInstrument)) {
-			System.out.println("Instrument = " + row.getInstrument() +
-				" Bid Price = " +  row.getBid() +
-				" Ask Price = " + row.getAsk()
-			);
+
 		}
 	}
 
